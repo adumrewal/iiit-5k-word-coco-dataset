@@ -9,6 +9,17 @@ This repository contains the [IIIT5K](https://cvit.iiit.ac.in/research/projects/
 
 The lexicon used to compute language priors is in the file `sample/og_labels/lexicon.txt`. This lexicon was provided by Weinman et al. 2009. The cited article should be cited when using this lexicon.
 
+### Sample dataset
+#### Train dataset
+|img_1||img_2||img_3||img_4|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|<img src="./sample/images/train/6_7.jpg" alt="drawing" width="150"/>||<img src="./sample/images/train/440_2.jpg" alt="drawing" width="150"/>||<img src="./sample/images/train/195_5.jpg" alt="drawing" width="150"/>||<img src="./sample/images/train/13_2.jpg" alt="drawing" width="150"/>|
+
+#### Test dataset
+|img_1||img_2|
+|:-:|:-:|:-:|
+|<img src="./sample/images/test/3_1.jpg" alt="drawing" width="150"/>||<img src="./sample/images/test/14_1.jpg" alt="drawing" width="150"/>|
+
 ### Folder structure
 - `sample/` : contains sample dataset structure to help understand what you're downloading
     - `images/` : images folder with train/test split
@@ -30,26 +41,13 @@ The lexicon used to compute language priors is in the file `sample/og_labels/lex
 - `git lfs pull`    (pulls the `.zip` file onto your system)
 - `unzip IIIT5K_coco.zip -d .`
 
-### Sample dataset
-#### Train dataset
-|img_1||img_2||img_3||img_4|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|<img src="./sample/images/train/6_7.jpg" alt="drawing" width="150"/>||<img src="./sample/images/train/440_2.jpg" alt="drawing" width="150"/>||<img src="./sample/images/train/195_5.jpg" alt="drawing" width="150"/>||<img src="./sample/images/train/13_2.jpg" alt="drawing" width="150"/>|
-<!-- |:-:|:-:|:-:|:-:|:-:|:-:|:-:| -->
-<!-- |||||||| -->
-
-#### Test dataset
-|img_1||img_2|
-|:-:|:-:|:-:|
-|<img src="./sample/images/test/3_1.jpg" alt="drawing" width="150"/>||<img src="./sample/images/test/14_1.jpg" alt="drawing" width="150"/>|
-
 ### Post Script
 - Incase you need the script to convert from `csv` to `coco` format, please feel free to reach out.
 - If you like what I've provided here, it would be great if you could star this repo. If you have any comments/suggestions, please feel free to drop an e-mail or raise an issue in this repo.
 - Thanks to [IIIT5K](https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset) for open-sourcing the dataset.
 
 ### Citations
-####
+#### IIITK Dataset
 ```
 @InProceedings{MishraBMVC12,
  author   = "Mishra, A. and Alahari, K. and Jawahar, C.~V.",
@@ -58,7 +56,7 @@ The lexicon used to compute language priors is in the file `sample/og_labels/lex
  year     = "2012"
 }
 ```
-####
+#### Lexicon
 ```
 @article{Weinman09,
     author = {Jerod J. Weinman and Erik Learned-Miller and Allen Hanson},
