@@ -7,7 +7,7 @@ This repository contains the [IIIT5K](https://cvit.iiit.ac.in/research/projects/
 3. Lexicon with 0.5 million words (from Weinman et al. 2009)
 4. Character bounding box level annotations
 
-The lexicon used to compute language priors is in the file `sample/og_labels/lexicon.txt`. This lexicon was provided by Weinman et al. 2009. The cited article should be cited when using this lexicon.
+The lexicon used to compute language priors is in the file `sample/og_labels/lexicon.txt`. This lexicon was provided by Weinman et al. 2009. The cited [article](https://github.com/adumrewal/iiit-5k-word-coco-dataset#lexicon) should be cited when using this lexicon.
 
 ### Sample dataset
 #### Train dataset
@@ -43,11 +43,12 @@ The lexicon used to compute language priors is in the file `sample/og_labels/lex
 
 ### Post Script
 - Incase you need the script to convert from `csv` to `coco` format, please feel free to reach out.
-- If you like what I've provided here, it would be great if you could star this repo. If you have any comments/suggestions, please feel free to drop an e-mail or raise an issue in this repo.
+- If you like what I've provided here, it would be great if you could star this repo.
+- If you have any comments/suggestions, please feel free to drop an e-mail or raise an issue in this repo.
 - Thanks to [IIIT5K](https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset) for open-sourcing the dataset.
 
 ### Citations
-#### IIITK Dataset
+#### IIIT-5K Dataset
 ```
 @InProceedings{MishraBMVC12,
  author   = "Mishra, A. and Alahari, K. and Jawahar, C.~V.",
