@@ -42,13 +42,14 @@ The lexicon used to compute language priors is in the file `sample/og_labels/lex
 - `unzip IIIT5K_coco.zip -d .`
 
 ### Post Script
-- Incase you need the script to convert from `csv` to `coco` format, please feel free to reach out.
-- If you like what I've provided here, it would be great if you could star this repo.
-- If you have any comments/suggestions, please feel free to drop an e-mail or raise an issue in this repo.
 - Thanks to [IIIT5K](https://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset) for open-sourcing the dataset.
+- Incase you need the script to convert from `csv` to `coco` format, please feel free to reach out.
+- If you have any comments/suggestions, please feel free to drop an e-mail or raise an issue in this repo.
+- If you like what I've provided here, it would be great if you could star this repo.
 
 ### Citations
 #### IIIT-5K Dataset
+Please mention the following citation if you plan on using this dataset. More details can be found on original dataset webpage.
 ```
 @InProceedings{MishraBMVC12,
  author   = "Mishra, A. and Alahari, K. and Jawahar, C.~V.",
